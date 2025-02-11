@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1b1c30;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#login{
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+}
+
+.caixa {
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+.caixa input{
+    border-radius: 20px;
+    background-color: #2a2b38;
+    color: white;
+    border: none;
+    margin-top: 17px;
+} 
+
+.entrar input{
+    color: rgb(255, 255, 255);
+    border: none;
+    background: rgb(117, 199, 120);
+    cursor: pointer;
+}
+
+.entrar input:hover{
+    background-color: rgb(95, 165, 97);
+    transition: 0.3s;
+} 
+
+.senha input,
+.email input{
+text-indent: 20px;
+font-size: 20px;
+width: 330px;
+height: 55px;
+}
+
+.senhaC input,
+.nome input{
+text-indent: 20px;
+font-size: 20px;
+width: 330px;
+height: 55px;
+}
+
+.entrar p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: #8d8e99;
+}
+
+.entrar a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.entrar input{
+font-size: 20px;
+width: 110px;
+height: 50px;
+color: black;
+margin-left: 1px;
+}
+
+.caixa img{
+    width: 200px;
+    position: relative;
+    left: 10px;
+}
